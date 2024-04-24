@@ -6,7 +6,8 @@
   "scripts": {
     "local": "nodemon server.js",
     "run": "node server.js",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "cypress": "cypress open"
   },
   "keywords": [],
   "author": "",
