@@ -2,6 +2,9 @@ name: Cypress Tests
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+      - '**/*.md'
+      - '_openshift'
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
